@@ -1,0 +1,346 @@
+* {margin:0;padding:0;list-style:none;}
+body{
+	background-image: url("../img/dark_embroidery.png");
+}
+#looper{
+	text-align:center;
+	font-family:'Nothing You Could Do', cursive;padding:10px;
+	text-shadow:1px 1px #333;
+	background-color:#c3c3c3;
+	color:#fff;
+}
+
+img{
+	
+	width:30%;
+	height: 30%;
+	margin-left: 30px;
+	position: relative;
+	z-index: -1;
+	padding: 2.5px;
+
+}
+.maincontent{
+	max-width: 99%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.like1,.like2,.like3,.like4,.like5,.like6,.like7,.like8,.like9,.like10{
+	margin: 0;
+	display: inline-block;
+	position: absolute;
+		z-index: 10;
+	cursor: pointer;
+}
+
+.dwnld1,.dwnld2,.dwnld3,.dwnld4,.dwnld5,.dwnld6,.dwnld7,.dwnld8,.dwnld9,.dwnld10{
+	display: inline-block;
+	position: absolute;
+	margin: 0;
+		z-index: 10;
+	cursor: pointer;
+}
+
+.share1,.share2,.share3,.share4,.share5,.share6,.share7,.share8,.share9,.share10{
+	display: inline-block;
+	position: absolute;
+		z-index: 10;
+		margin: 0;
+	cursor: pointer;
+}
+
+h2 ,.like1{
+	color:white;
+	display: inline-block;
+	margin:0;
+}
+
+.like1{
+	display: inline-block;
+	position: absolute;
+	top: 16.5rem;
+    left: 5rem;
+	z-index: 10;
+	cursor: pointer;
+
+}
+
+
+.like2{
+	display: inline-block;
+	position: absolute;
+	top: 17rem;
+    left: 48rem;
+	z-index: 10;
+	cursor: pointer;
+
+}
+
+.like3{
+	display: inline-block;
+	position: absolute;
+	top: 9.5rem;
+    left: 92rem;
+	z-index: 10;
+}
+
+.like4{
+	display: inline-block;
+	position: absolute;
+	top: 57rem;
+    left: 5rem;
+	z-index: 10;
+	cursor: pointer;
+
+}
+
+.like5{
+	display: inline-block;
+	position: absolute;
+	top: 49.5rem;
+    left: 48rem;
+	z-index: 10;
+	cursor: pointer;
+
+}
+
+.like6{
+	display: inline-block;
+	position: absolute;
+	top: 59.5rem;
+    left: 92rem;
+	z-index: 10;
+	cursor: pointer;
+
+}
+
+.like7{
+	display: inline-block;
+	position: absolute;
+	top: 93.5rem;
+    left: 5rem;
+	z-index: 10;
+	cursor: pointer;
+
+}
+
+.like8{
+	display: inline-block;
+	position: absolute;
+	top: 90rem;
+    left: 48rem;
+	z-index: 10;
+	cursor: pointer;
+
+}
+
+.like9{
+	display: inline-block;
+	position: absolute;
+	top: 92.5rem;
+    left: 92rem;
+	z-index: 10;
+	cursor: pointer;
+
+}
+
+.like10{
+	display: inline-block;
+	position: absolute;
+	top: 125rem;
+    left: 5rem;
+	z-index: 10;
+	cursor: pointer;
+
+}
+
+
+
+.dwnld1{
+	display: inline-block;
+	position: absolute;
+	top: 16.5rem;
+    left: 39rem;
+	z-index: 10;
+	cursor: pointer;
+}
+
+
+.dwnld2{
+	display: inline-block;
+	position: absolute;
+	top: 17.5rem;
+    left: 83rem;
+	z-index: 10;
+	cursor: pointer;
+}
+.dwnld3{
+	display: inline-block;
+	position: absolute;
+	top: 9.5rem;
+    left: 127rem;
+	z-index: 10;
+	cursor: pointer;
+}
+.dwnld4{
+	display: inline-block;
+	position: absolute;
+	top: 57rem;
+    left: 40rem;
+	z-index: 10;
+	cursor: pointer;
+}
+.dwnld5{
+	display: inline-block;
+	position: absolute;
+	top: 49.5rem;
+    left: 83rem;
+	z-index: 10;
+	cursor: pointer;
+}
+.dwnld6{
+	display: inline-block;
+	position: absolute;
+	top: 59.5rem;
+    left: 126rem;
+	z-index: 10;
+	cursor: pointer;
+}
+.dwnld7{
+	display: inline-block;
+	position: absolute;
+	top: 94rem;
+    left: 39rem;
+	z-index: 10;
+	cursor: pointer;
+}
+.dwnld8{
+	display: inline-block;
+	position: absolute;
+	top: 90.5rem;
+    left: 83rem;
+	z-index: 10;
+	cursor: pointer;
+}
+.dwnld9{
+	display: inline-block;
+	position: absolute;
+	top: 92.5rem;
+    left: 127rem;
+	z-index: 10;
+	cursor: pointer;
+}
+.dwnld10{
+	display: inline-block;
+	position: absolute;
+	top: 125rem;
+    left: 39rem;
+	z-index: 10;
+	cursor: pointer;
+}
+
+
+
+
+.share1{
+	display: inline-block;
+	position: absolute;
+	top: 38rem;
+    left: 40rem;
+	z-index: 10;
+	cursor: pointer;
+
+}
+.share2{
+	display: inline-block;
+	position: absolute;
+	top: 38rem;
+    left: 84rem;
+	z-index: 10;
+	cursor: pointer;
+
+}
+.share3{
+	display: inline-block;
+	position: absolute;
+	top: 45rem;
+    left: 127rem;
+	z-index: 10;
+	cursor: pointer;
+
+}
+.share4{
+	display: inline-block;
+	position: absolute;
+	top: 79rem;
+    left: 40rem;
+	z-index: 10;
+	cursor: pointer;
+
+}
+.share5{
+	display: inline-block;
+	position: absolute;
+	top: 84.5rem;
+    left: 83.5rem;
+	z-index: 10;
+	cursor: pointer;
+
+}
+.share6{
+	display: inline-block;
+	position: absolute;
+	top: 75rem;
+    left: 127rem;
+	z-index: 10;
+	cursor: pointer;
+
+}
+.share7{
+	display: inline-block;
+	position: absolute;
+	top: 116rem;
+    left: 40rem;
+	z-index: 10;
+	cursor: pointer;
+
+}
+.share8{
+	display: inline-block;
+	position: absolute;
+	top: 118rem;
+    left: 83.5rem;
+	z-index: 10;
+	cursor: pointer;
+
+}
+.share9{
+	display: inline-block;
+	position: absolute;
+	top: 118rem;
+    left: 127rem;
+	z-index: 10;
+	cursor: pointer;
+
+}
+.share10{
+	display: inline-block;
+	position: absolute;
+	top: 143rem;
+    left: 40rem;
+	z-index: 10;
+	cursor: pointer;
+
+}
+
+
+
+
+
+#piechart{
+	display: none;
+	position: absolute;
+	z-index: 12;
+}
+
